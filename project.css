@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.abcd {
+  width: 70%;
+  height: 100%;
+}
+
+a:link {
+  font-weight: bold;
+}
+@keyframes blink {
+  from {
+    /* opacity: 0; */
+    transform: scale(1.2);
+    color: orangered;
+    text-decoration: underline !important;
+    text-underline-offset: 5px;
+  }
+  to {
+    /* opacity: 1; */
+    text-decoration: underline !important;
+    text-underline-offset: 5px; `
+    color: orangered;
+    transform: scale(1);
+  }
+}
+
+.cus-nav-link:hover {
+  /* background: chartreuse; */
+
+  animation-name: blink;
+  animation-duration: 2s;
+  transition: all 2s ease-in;
+}
+
+.top-head {
+  background-color: #18496b;
+  color: white;
+  min-height: 50px;
+}
+.top-icon a {
+  color: white;
+  text-decoration: none;
+}
+.carou-image {
+  transform: scale(1.3);
+}
+.bi-arrow-right-circle-fill {
+  color: black;
+  font-size: 50px;
+  /* justify-content: start !important; */
+}
+.bi-arrow-left-circle-fill {
+  color: black;
+
+  font-size: 50px;
+  /* justify-content: start !important; */
+}
+.heading {
+  color: #006db7;
+}
+
+.btn {
+  background-color: #002147;
+}
+.para1 {
+  /* text-align: justify; */
+  text-align: center;
+}
+.paragraph {
+  text-align: justify;
+}
+.val {
+  color: red;
+}
+/* #fNote {
+}
+#eNote {
+  color: red;
+}
+#mNote {
+  color: red;
+} */
+.service {
+  background: url(./imageproject/bg1.jpeg), no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  /* position: relative;
+  z-index: 10; */
+}
+.overlay {
+  /* height: 100vh; */
+  background-color: rgba(18, 11, 11, 0.773);
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10; */
+}
+
+.owl-prev {
+  background-color: white;
+}
+input {
+  border: 0px;
+  border-bottom: 1px solid #bfbcbc;
+  width: 90%;
+}
+
+#select {
+  width: 90%;
+  height: 43px;
+  border-radius: 4px;
+  border: 0px;
+  border: 1px solid #bfbcbc;
+  border: 0px;
+  border-bottom: 1px solid #bfbcbc;
+}
+#message {
+  width: 90%;
+  height: 150px;
+  border: 0px;
+  border-bottom: 1px solid #bfbcbc;
+}
+.achievements {
+  background: url(./imageproject/employee.jpg), no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.overlay-out {
+  background-color: rgba(18, 11, 11, 0.773);
+  /* height: 100vh; */
+}
+.icon-process {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid #c1c4c7;
+  color: #006db7;
+  font-size: 44px;
+  line-height: 0.8;
+  padding: 27px 20px;
+  margin-bottom: 18px;
+}
+.icon-process:hover {
+  color: #fff;
+  background-color: #006db7;
+}
+.li-collapse li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.special ul div {
+  transition: collapse 2s ease;
+}
+.special ul li {
+  color: #000000;
+  font-size: 18px;
+}
+
+.bi {
+  font-size: 24px;
+  font-weight: 900;
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+}
+.last-icon a {
+  color: #162638;
+}
+.last-icon a:hover {
+  color: white;
+}
+@keyframes service {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.services li:hover {
+  animation-name: service;
+  animation-duration: 1s;
+}
+.foot {
+  margin-top: 10px;
+}
